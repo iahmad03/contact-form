@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:700|Poppins:400');
+
+/*
+text: #0b0e0b;
+background: #f4f6f4;
+primary: #749076;
+secondary: #b5c1c4;
+accent: #9ca5b0;
+*/
+
+body {
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	background: #eef0ee;
+	color: #0b0e0b;
+	font-family: 'Poppins';
+	font-size: 16px;
+}
+
+h1 {
+	font-family: 'Lora';
+	font-size: 44px;
+	margin: 1em auto 0;
+	text-align: center;
+}
+
+p {
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+	margin: 6px 0 1em 0;
+}
+
+form {
+	width: 60vw;
+	max-width: 500px;
+	min-width: 300px;
+	margin: 0 auto;
+	padding-bottom: 2em;
+}
+
+fieldset {
+	border: none;
+	padding: 0;
+	border-bottom: 3px solid #b5c1c4;
+	font-size: 14px;
+}
+
+fieldset:last-of-type {
+	border-bottom: none;
+}
+
+label {
+	display: block;
+	margin: 0.6rem 1em;
+}
+
+input,
+textarea,
+select {
+	margin: auto;
+	width: calc(100% - 2em);
+	padding: 0.5em;
+}
+
+input,
+textarea {
+	background-color: #eceef0;
+	border: 0.6em solid #eceef0;
+	font-family: 'Poppins';
+	color: #0b0e0b;
+	border-radius: 0.2em;
+}
+
+textarea {
+	resize: none;
+}
+
+.inline {
+	width: unset;
+	margin: 0 0.5em 0 0;
+	vertical-align: middle;
+	display: inline;
+}
+
+input[type='submit'] {
+	font-family: 'Poppins';
+	display: block;
+	margin: 1em auto;
+	height: 3em;
+	font-size: inherit;
+	background: linear-gradient(45deg, #7ca37cc5, #6c9971);
+	color: #0b0e0bee;
+	border-radius: 0.2rem;
+	border: none;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	cursor: pointer;
+	z-index: 1;
+	transition: color 0.1s, transform 0.2s ease;
+}
+
+input[type='submit']:hover {
+	transform: translateY(-2px);
+	color: #ffffffd0;
+}
+
+.white-bg {
+	width: 35em;
+	height: 49em;
+	background-color: #fff;
+	padding: 20px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+}
+
+.content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}

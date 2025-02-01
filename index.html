@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Company</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="white-bg"></div>
+    <div class="content">
+        <h1 class="contact">
+            Contact Us
+        </h1>
+        <p class="quote">Get a free estimate</p>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <label for="first-name">Name
+                    <input id="first-name" name="name" type="text" required />
+                </label>
+                <label for="phone">Phone
+                    <input type="tel" id="phone" name="phone">
+                </label>
+                <label for="address">Address
+                    <input id="address" name="address" type="text" required />
+                </label>
+                <label for="email">Email
+                    <input id="email" name="email" type="email" required />
+                </label>
+                <label for="service">Service Needed
+                    <input id="service"
+                     name="service" type="service" required />
+                </label>
+                <label for="message">Message
+                    <textarea name="message" id="message" rows="4"></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" value="Submit ➝" />
+        </form>
+    </div>
+</body>
+
+</html>
